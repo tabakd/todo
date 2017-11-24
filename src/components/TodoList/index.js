@@ -15,8 +15,7 @@ const Container = styled.div`
 `
 
 const Header = styled.div`
-    padding: 5px;
-    font-size: 0.8em;
+    padding: 10px;
     text-align: center;
     font-weight: bold;
     color: #455A64;
