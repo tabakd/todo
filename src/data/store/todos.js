@@ -32,8 +32,9 @@ export const loadTodos = (todos) => ({
 
 export const loadTodosFromMyJson = () => (dispatch) => {
     myjson.get().then(todos => {
-        if (todos.bins) return;
-        dispatch(loadTodos(todos))
+        if (!todos.bins) {
+            dispatch(loadTodos(todos))
+        }  
     })
 }
 
