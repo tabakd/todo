@@ -8,9 +8,9 @@ import TodoForm from './TodoForm';
 
 
 const Container = styled.div`
-    margin: 10px auto;
+    margin: 20px;
     background: white;
-    width: 460px;
+    width: 440px;
     box-shadow: 0px 1px 10px #575b75;
 `
 
